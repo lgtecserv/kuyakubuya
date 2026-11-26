@@ -34,7 +34,7 @@ export default function TermosPage() {
             <section className="space-y-2">
               <h2 className="text-lg font-extrabold text-[#001a67]">2. Registo e Verificação</h2>
               <p>
-                Para utilizar a plataforma, o utilizador deve ter pelo menos 18 anos e fornecer informações verdadeiras. Os motoristas parceiros só podem operar após validação documental e ativação da conta pela administração.
+                Para utilizar a plataforma como passageiro, o utilizador deve ter pelo menos <strong>13 anos</strong> (sendo necessária autorização dos pais ou encarregados de educação entre os 13 e os 17 anos) e fornecer informações verdadeiras. O registo como Motorista ou Transportador Parceiro é reservado a maiores de <strong>18 anos</strong> e só fica ativo após validação documental pela administração.
               </p>
             </section>
 

@@ -130,9 +130,9 @@ export default function PrivacidadePage() {
             </section>
 
             <section className="space-y-2.5">
-              <h2 className="text-xl font-extrabold text-[#001a67]">7. Proteção de Menores</h2>
+              <h2 className="text-xl font-extrabold text-[#001a67]">7. Proteção de Crianças e Faixa Etária (13+)</h2>
               <p>
-                Os serviços da KuyaKubuya destinam-se exclusivamente a utilizadores com <strong>18 anos ou mais</strong>. Não recolhemos intencionalmente dados de crianças ou menores de idade.
+                A utilização da plataforma KuyaKubuya por passageiros destina-se a utilizadores com <strong>13 anos ou mais</strong>; utilizadores entre os 13 e os 17 anos apenas devem utilizar a aplicação com o conhecimento e a autorização dos respetivos pais ou encarregados de educação. O registo como Motorista ou Transportador Parceiro é estritamente reservado a maiores de <strong>18 anos</strong> legalmente habilitados. Não dirigimos os nossos serviços a crianças com menos de 13 anos nem recolhemos intencionalmente os seus dados; caso identifiquemos uma conta criada por menor de 13 anos, eliminaremos a conta e os dados associados de imediato.
               </p>
             </section>
 
@@ -161,6 +161,14 @@ export default function PrivacidadePage() {
                 Para dúvidas sobre privacidade ou proteção de dados:
                 <br />
                 <strong>Empresa:</strong> {SITE_CONFIG.legalName} ({SITE_CONFIG.headquarters})
+                <br />
+                <strong>Website oficial:</strong>{" "}
+                <a
+                  href={SITE_CONFIG.siteUrl}
+                  className="text-[#001a67] font-bold underline"
+                >
+                  {SITE_CONFIG.siteUrl}
+                </a>
                 <br />
                 <strong>E-mail:</strong>{" "}
                 <a
